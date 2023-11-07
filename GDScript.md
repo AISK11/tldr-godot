@@ -30,7 +30,7 @@ func _enter_tree():
 ## nodes are "ready".
 func _ready():
     pass
-    ```
+```
 
 ## Continuation
 
@@ -44,7 +44,7 @@ func _process(delta):
 ## - delta = time in seconds between refreshes.
 func _physics_process(delta):
     pass
-    ```
+```
 
 ## Input
 
