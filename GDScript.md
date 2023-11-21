@@ -2,9 +2,21 @@
 
 *- programming language for Godot.*
 
+## Variables
+
+```gdscript
+## Variable.
+var <name> = <value>
+
+## Variable exported to GUI.
+@export var <name> = <value>
+```
+
+## Functions
+
 ## Initialization
 
-```gd
+```gdscript
 ## Nodes are initialized by top-down approach.
 ## +-----------------------------------------------+
 ## |NODE           _init()  _enter_tree()  _ready()|
@@ -34,7 +46,7 @@ func _ready():
 
 ## Continuation
 
-```gd
+```gdscript
 ## Called every frame (FPS/s).
 ## - delta = time in seconds between refreshes.
 func _process(delta):
@@ -48,5 +60,6 @@ func _physics_process(delta):
 
 ## Input
 
-```gd
+```gds
+
 ```
